@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,49 +11,30 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Economics and Mathematics (Honors), Indiana University, 2015
+* M.S. in Analytics, Northwestern University, 2016
+* Ph.D in Information Systems, University of Texas, 2025 (expected)
 
-Work experience
+Prior Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+Jan 2017 - May 2021: I was a Senior Data Scientist @ [UChicago Urban Labs](https://urbanlabs.uchicago.edu/) working on a variety of interesting problems.
+  * **Public Sector Machine Learning**
+    * Constructed model predicting people at most risk of experiencing domestic violence.
+    * Developed text model to audit categorizations of police department internal complaints.
+    * Built model using education data to determine 4th graders at risk of not completing high school.
+  * **Data Drift Analysis**
+    * Studied how system changes in grades (e.g. grade inflation) affected predictions in model built to determine likelihood of dropping out of high school.
+    * Built a reporting pipeline to measure change in large police department administrative datasets over time in order to assess risk of data drift.
+  * **Applied Data Science**
+    * I was embedded with Chicago Police Department to help implement a federated, data-driven policing strategy.
+    * Identified major motor vehicle theft pattern.
+    * Utilized > 1 billion row dataset of police car GPS to assess quality of officer patrol.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Statistics (PhD-level Econometrics I & II)
+* Programming Languages
+  * R (advanced)
+  * Python (advanced)
+  * SQL
+* Machine Learning

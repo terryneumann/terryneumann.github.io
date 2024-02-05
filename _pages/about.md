@@ -13,19 +13,29 @@ I'm a third-year PhD student at the [McCombs School of Business](https://www.mcc
 
 My research advances fairness, safety, and responsibility in the development and use of artificial intelligence (AI) systems trained to replicate human opinions, judgments, and values. As such, it is very interdisciplinary and involves auditing contemporary AI and NLP systems with theoretical lenses from the social sciences, complex systems, and ethics.
 
-## Ethics of Automating Human Judgments
 
-One promise of AI rests on its ability to automate decision-making tasks that have traditionally relied on human judgment, especially in areas where a clear-cut ground truth is often lacking (e.g., determining whether content is harmful). However, human judgments are inherently subject to biases, underscoring the importance of carefully analyzing which biases AI systems may reflect in their output. My work focuses on identifying and addressing the implications of such biases, particularly within the realm of AI-assisted fact-checking. 
+<blockquote style=" padding: 10px; background-color: #eeeeee;"><font size="3">
 
-In this domain, I have formulated ethical frameworks to evaluate potential harms arising from AI usage, assessed the fairness of models used to prioritize content for fact-checking in simulated social networks, and investigated the capacity of large language models (LLMs) to represent diverse viewpoints on contentious issues.
+<h2>Ethics of Automating Human Judgments</h2>
 
-## AI Alignment and Governance Research
+<p>One promise of AI rests on its ability to automate decision-making tasks that have traditionally relied on human judgment, especially in areas where a clear-cut ground truth is often lacking (e.g., determining whether content is harmful). However, human judgments are inherently subject to biases, underscoring the importance of carefully analyzing which biases AI systems may reflect in their output. My work focuses on identifying and addressing the implications of such biases, particularly within the realm of AI-assisted fact-checking.</p>
 
-Additionally, I am interested in developing technical approaches for AI alignment with human values, as well as governance approaches to safely open-source advanced AI. 
+<p>In this domain, I have formulated ethical frameworks to evaluate potential harms arising from AI usage, assessed the fairness of models used to prioritize content for fact-checking in simulated social networks, and investigated the capacity of large language models (LLMs) to represent diverse viewpoints on contentious issues.</p>
 
-In the technical domain, I plan to initiate research on "supervisor" models designed to detect deception in LLMs. These supervisor models could serve as a crucial layer of oversight, identifying and mitigating instances where LLMs might generate misleading, manipulative, or otherwise unsafe content. 
+<h2>AI Alignment and Governance Research</h2>
 
-On the governance side, I am interested in crafting policies and technical standards that facilitate the safe sharing of advanced AI technologies, ensuring they cannot be used for nefarious purposes. For instance, I propose "locking" inference for models that have been additionally trained after initial distribution until red-teaming evaluations are passed.
+<p>Additionally, I am interested in developing technical approaches for AI alignment with human values, as well as governance approaches to safely open-source advanced AI.</p>
+
+<p>In the technical domain, I plan to initiate research on "supervisor" models designed to detect deception in LLMs. These supervisor models could serve as a crucial layer of oversight, identifying and mitigating instances where LLMs might generate misleading, manipulative, or otherwise unsafe content.</p>
+
+<p>On the governance side, I am interested in crafting policies and technical standards that facilitate the safe sharing of advanced AI technologies, ensuring they cannot be used for nefarious purposes. For instance, I propose "locking" inference for models that have been additionally trained after initial distribution until red-teaming evaluations are passed.</p>
+</font>
+	
+</blockquote>
+
+
+
+
 
 ## Publications
 

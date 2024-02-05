@@ -15,7 +15,6 @@ My research promotes fairness, safety, and responsibility in the development and
 
 To address these challenges, I employ an interdisciplinary approach, integrating techniques from machine learning, natural language processing, social science, ethics, and network science. 
 
-In my spare time, I like to run around Austin (currently training for an ultra-marathon!), watch movies at [AFS](https://www.austinfilm.org/), and experiment with my ever growing guitar pedal collection.
 
 ## Human Judgments and Label Bias
 
@@ -31,3 +30,6 @@ In the technical domain, I plan to initiate research on "supervisor" models desi
 
 On the governance side, I am interested in crafting policies and technical standards that facilitate the safe sharing of advanced AI technologies, ensuring they cannot be used for nefarious purposes. For instance, I propose "locking" inference for models that have been additionally trained after initial distribution until red-teaming evaluations are passed.
 
+## About Me
+
+In my spare time, I like to run around Austin (currently training for an ultra-marathon!), watch movies at [AFS](https://www.austinfilm.org/), and experiment with my ever growing guitar pedal collection.

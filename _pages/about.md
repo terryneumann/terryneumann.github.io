@@ -24,7 +24,7 @@ In this domain, I have formulated ethical frameworks to evaluate potential harms
 
 ## AI Alignment and Governance Research
 
-Additionally, I am interested in developing technical approaches to advanced AI alignment with human values, as well as governance approaches to safely open-source advanced AI. 
+Additionally, I am interested in developing technical approaches for AI alignment with human values, as well as governance approaches to safely open-source advanced AI. 
 
 In the technical domain, I plan to initiate research on "supervisor" models designed to detect deception in LLMs. These supervisor models could serve as a crucial layer of oversight, identifying and mitigating instances where LLMs might generate misleading, manipulative, or otherwise unsafe content. 
 

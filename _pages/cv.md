@@ -9,5 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-<iframe src="https://github.com/terryneumann/terryneumann.github.io/blob/master/_cv/TerrenceNeumannResume.pdf" width="600" height="400"></iframe>
+<iframe src="https://drive.google.com/file/d/1JGqwm2zkaKYemgePWckZuCVCVj8TQI9g/view?usp=sharing" width="600" height="400"></iframe>
 

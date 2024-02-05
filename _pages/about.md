@@ -16,11 +16,11 @@ My research promotes fairness, safety, and responsibility in the development and
 To address these challenges, I employ an interdisciplinary approach, integrating techniques from machine learning, natural language processing, social science, ethics, and network science. 
 
 
-## Human Judgments and Label Bias
+## Ethics of Automating Human Judgments
 
-One promise of AI rests on its ability to automate decision-making tasks that have traditionally relied on human judgment, especially in areas where a clear-cut ground truth is often lacking (e.g., determining whether content is harmful). However, human judgments are inherently subject to biases, underscoring the importance of carefully analyzing which biases AI systems may unintentionally mirror during their training. My work focuses on identifying and addressing such biases, particularly within the realm of AI-assisted fact-checking. 
+One promise of AI rests on its ability to automate decision-making tasks that have traditionally relied on human judgment, especially in areas where a clear-cut ground truth is often lacking (e.g., determining whether content is harmful). However, human judgments are inherently subject to biases, underscoring the importance of carefully analyzing which biases AI systems may reflect in their output. My work focuses on identifying and addressing the implications of such biases, particularly within the realm of AI-assisted fact-checking. 
 
-In this field, I have formulated ethical frameworks to evaluate potential harms arising from AI usage, assessed the fairness of models used to prioritize content for fact-checking in simulated social networks, and investigated the capacity of large language models (LLMs) to represent diverse viewpoints on contentious issues.
+In this domain, I have formulated ethical frameworks to evaluate potential harms arising from AI usage, assessed the fairness of models used to prioritize content for fact-checking in simulated social networks, and investigated the capacity of large language models (LLMs) to represent diverse viewpoints on contentious issues.
 
 ## AI Alignment and Governance Research
 

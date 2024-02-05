@@ -46,7 +46,7 @@ Tanriverdi, Hüseyin, John-Patrick Akinyemi, and **Terrence Neumann**. "Mitigati
 
 **Diverse, but Divisive: LLMs Can Exaggerate Differences in Opinion Related to Harms of Misinformation.** With Sooyong Lee, Maria De-Arteaga, Sina Fazelpour, and Matt Lease. <a href="https://arxiv.org/pdf/2401.16558.pdf" class="btn btn-xs btn-default">pdf</a>
 
-**How Can Artificial General Intelligence Be Open-Sourced Safely?** With Bryan Jones. 
+**How Can Artificial General Intelligence Be Open-Sourced Safely?** With Bryan Jones. <i>Draft forthcoming.</i>
 
 ## About Me
 

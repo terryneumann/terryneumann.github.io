@@ -19,14 +19,10 @@ One promise of AI rests on its ability to automate decision-making tasks that ha
 
 In this domain, I have formulated ethical frameworks to evaluate potential harms arising from AI usage, assessed the fairness of models used to prioritize content for fact-checking in simulated social networks, and investigated the capacity of large language models (LLMs) to represent diverse viewpoints on contentious issues.
 
-## AI Alignment and Governance Research
+## Open-Source Foundation Model Safety
 
-Additionally, I am interested in developing technical approaches for AI alignment with human values, as well as governance approaches to safely open-source advanced AI. 
+Given the advanced capabilities of open-source foundation models, robust safety mechanisms are necessary to ensure that these models are not misused by malicious actors. However, open-source foundation model companies often lack the resources to maintain these extra safeguards. Further, these companies are often guided by values of openness and accessibility, which can be at odds with safety. In the face of these challenges, how can we ensure that open-source foundation models maintain high standards of safety? I am developing a research agenda that attempts to frame model safety mechanisms within the context and values of open-source foundation model companies, such as privacy, low marginal cost, and open-source contributions.
 
-In the technical domain, I plan to initiate research on "supervisor" models designed to detect deception in LLMs. These supervisor models could serve as a crucial layer of oversight, identifying and mitigating instances where LLMs might generate misleading, manipulative, or otherwise unsafe content. 
-
-On the governance side, I am interested in crafting policies and technical standards that facilitate the safe sharing of advanced AI technologies, ensuring they cannot be used for nefarious purposes. For instance, I propose "locking" inference for models that have been additionally trained after initial distribution until red-teaming evaluations are passed.
-	
 ## Publications
 
 ### 2023
@@ -43,9 +39,9 @@ Tanriverdi, Hüseyin, John-Patrick Akinyemi, and **Terrence Neumann**. "Mitigati
 
 **Diverse, but Divisive: LLMs Can Exaggerate Differences in Opinion Related to Harms of Misinformation.** With Sooyong Lee, Maria De-Arteaga, Sina Fazelpour, and Matt Lease. <a href="https://arxiv.org/pdf/2401.16558.pdf" class="btn btn-xs btn-default">pdf</a>
 
-**How Can Artificial General Intelligence Be Open-Sourced Safely?** With Bryan Jones. <i>Draft forthcoming.</i>
+**PRISM: A Design Framework for Open-Source Foundation Model Safety** With Bryan Jones. <a href="https://arxiv.org/pdf/2406.10415" class="btn btn-xs btn-default">pdf</a>
 
 ## About Me
 
-In my spare time, I like to run around Austin (currently training for an ultra-marathon!), watch movies at [AFS](https://www.austinfilm.org/), and experiment with my ever growing guitar pedal collection.
+In my spare time, I like to run around Austin, watch movies at [AFS](https://www.austinfilm.org/), and experiment with my ever growing guitar pedal collection.
 

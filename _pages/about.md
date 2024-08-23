@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 
-I'm a third-year PhD student at the [McCombs School of Business](https://www.mccombs.utexas.edu/) Information, Risk, and Operations Management (IROM) Department. I'm fortunate to be advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Maytal Saar-Tsechansky](http://www.maytals.com/).
+I'm a third-year PhD student at the [McCombs School of Business](https://www.mccombs.utexas.edu/) Information, Risk, and Operations Management (IROM) Department. I'm fortunate to be advised by [Maria De-Arteaga](https://mariadearteaga.com/).
 
-My research advances fairness, safety, and responsibility in the development and use of artificial intelligence (AI) systems trained to replicate human opinions, judgments, and values. As such, it is very interdisciplinary and involves auditing contemporary AI and NLP systems with theoretical lenses from the social sciences, complex systems, and ethics.
+My thesis research advances fairness, safety, and responsibility in the development and use of artificial intelligence (AI) systems trained to replicate human opinions, judgments, and values. As such, it is very interdisciplinary and involves auditing contemporary AI and NLP systems with theoretical lenses from the social sciences, complex systems, and ethics. Additionally, I am working to develop a framework for open-source foundation model safety, addressing the risks that come from the public's ability to modify these models to potentially malicious ends. This effort also considers the unique challenges facing open-source companies, such as lack of centralized control and limited resources, which can complicate safety implementations.
 
 ## Ethics of Automating Human Judgments
 

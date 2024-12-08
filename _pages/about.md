@@ -8,22 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+I’m a fourth-year PhD candidate in the Information, Risk, and Operations Management (IROM) Department at the [McCombs School of Business](https://www.mccombs.utexas.edu/), University of Texas at Austin. I have the privilege of being advised by [Dr. Maria De-Arteaga](https://mariadearteaga.com/).
 
-I'm a third-year PhD student at the [McCombs School of Business](https://www.mccombs.utexas.edu/) Information, Risk, and Operations Management (IROM) Department. I'm fortunate to be advised by [Maria De-Arteaga](https://mariadearteaga.com/).
+My research focuses on the responsible development and deployment of AI systems, particularly in applied domains like fact-checking and criminal justice. I am especially interested in two key areas:
 
-My thesis research advances fairness, safety, and responsibility in the development and use of artificial intelligence (AI) systems trained to replicate human opinions, judgments, and values. As such, it is very interdisciplinary and involves auditing contemporary AI and NLP systems with theoretical lenses from the social sciences, complex systems, and ethics. 
+1. Anticipating Failures: Understanding how AI applications can fall short of expectations, potentially leading to harm.
+2. Mitigating Harms: Developing responsible approaches to AI design and implementation that address these risks.
 
-Additionally, I am working to develop a framework for open-source foundation model safety, addressing the risks that come from the public's ability to modify these models to potentially malicious ends. This effort also considers the unique challenges facing open-source companies, such as lack of centralized control and limited resources, which can complicate safety implementations.
-
-## Ethics of Automating Human Judgments
-
-One promise of AI rests on its ability to automate decision-making tasks that have traditionally relied on human judgment, especially in areas where a clear-cut ground truth is often lacking (e.g., determining whether content is harmful). However, human judgments are inherently subject to biases, underscoring the importance of carefully analyzing which biases AI systems may reflect in their output. My work focuses on identifying and addressing the implications of such biases, particularly within the realm of AI-assisted fact-checking. 
-
-In this domain, I have formulated ethical frameworks to evaluate potential harms arising from AI usage, assessed the fairness of models used to prioritize content for fact-checking in simulated social networks, and investigated the capacity of large language models (LLMs) to represent diverse viewpoints on contentious issues.
-
-## Open-Source Foundation Model Safety
-
-Given the advanced capabilities of open-source foundation models, robust safety mechanisms are necessary to ensure that these models are not misused by malicious actors. However, open-source foundation model companies often lack the resources to maintain these extra safeguards. Further, these companies are often guided by values of openness and accessibility, which can be at odds with safety. In the face of these challenges, how can we ensure that open-source foundation models maintain high standards of safety? I am developing a research agenda that attempts to frame model safety mechanisms within the context and values of open-source foundation model companies, such as privacy, low marginal cost, and open-source contributions.
+To tackle these challenges, I adopt a multidisciplinary approach, drawing on insights and techniques from ethics, social science theory and methods, and machine learning. My work centers on societally impactful questions, with the goal of fostering improved human-AI decision-making processes. I hope my research contributes to the development of AI systems that are not only technically robust but also ethically sound and socially beneficial.
 
 ## Publications
 

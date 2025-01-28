@@ -2,33 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student at the <a href='https://www.mccombs.utexas.edu/faculty-research/departments/irom/'>University of Texas at Austin</a>.
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  align: left
+  image: headshot.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: true # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Welcome!  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m a fourth-year PhD student at the University of Texas at Austin, where I study **Responsible and Ethical AI** under the guidance of [Maria De-Arteaga](https://mariadearteaga.com/).  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am both fascinated by and skeptical of advances in AI. On one hand, I’m captivated by AI’s transformative potential to reshape society and drive incredible efficiencies. On the other, I approach its rapid advancements with a critical eye, wary of the hype that often clouds meaningful discourse. This tension fuels my research, as I strive to disentangle fact from fiction and equip organizations to make informed, ethical decisions about AI adoption and development.  
+
+## What I Work On  
+
+In my research, I focus on:  
+- **Frameworks for Responsible AI**: Designing practical theoretical frameworks to guide ethical and responsible development and use of AI technologies.  
+- **Evaluating AI Behavior**: Investigating behavior and performance, especially in areas where ground truth is ambiguous or indeterminate, requiring thoughtful methods and theoretical considerations beyond traditional empirical approaches.  
+- **Mitigating AI Risks**: Identifying and addressing problematic behaviors in AI systems to improve their safety and reliability.  
+
+## Collaborators  
+
+I’m fortunate to collaborate with and learn from great researchers like [Sina Fazelpour](https://cssh.northeastern.edu/faculty/sina-fazelpour/), [Matt Lease](https://mattlease.com/), and [Maytal Saar-Tsechansky](https://www.maytals.com/).  

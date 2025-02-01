@@ -8,26 +8,26 @@ nav_order: 6
 ---
 ## 2024-2025
 ### Fall
-- **Intro to Problem Solving and Programming**, TA  
+- **MIS304: Intro to Problem Solving and Programming**,Role: TA  
   *Professor: Yan Leng*
 
 ## 2023-2024
 ### Fall
-- **Intro to Problem Solving and Programming**, TA  
+- **MIS304: Intro to Problem Solving and Programming**, Role: TA  
   *Professor: Yan Leng*
 
 ### Spring
-- **Ethics of AI (Undergraduate)**, TA  
+- **MIS285: Ethics of AI (Undergraduate)**, Role: TA  
   *Professor: Maria De-Arteaga*  
-- **Ethics of AI (Graduate)**, TA  
+- **BAX372: Ethics of AI (Graduate)**, Role: TA  
   *Professor: Maria De-Arteaga*
 
 ## 2022-2023
 ### Fall
-- **Intro to Problem Solving and Programming**, TA  
+- **MIS304: Intro to Problem Solving and Programming**, Role: TA  
   *Professor: Maria De-Arteaga*
 
 ## 2021-2022
 ### Fall
-- **Intro to Problem Solving and Programming**, TA  
+- **MIS304: Intro to Problem Solving and Programming**, Role: TA  
   *Professor: Maria De-Arteaga*

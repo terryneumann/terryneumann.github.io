@@ -8,7 +8,7 @@ nav_order: 6
 ---
 ## 2024-2025
 ### Fall
-- **MIS304: Intro to Problem Solving and Programming**,Role: TA  
+- **MIS304: Intro to Problem Solving and Programming**, Role: TA  
   *Professor: Yan Leng*
 
 ## 2023-2024

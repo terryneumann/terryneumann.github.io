@@ -1,115 +1,45 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{neumann2022justice,
+  title={Justice in misinformation detection systems: An analysis of algorithms, stakeholders, and potential harms},
+  author={Neumann, Terrence and De-Arteaga, Maria and Fazelpour, Sina},
+  booktitle={Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency},
+  pages={1504--1515},
+  year={2022},
+  preview={justice_in_misinfo_preview.png},
+  abstract={Faced with the scale and surge of misinformation on social media, many platforms and fact-checking organizations have turned to algorithms for automating key parts of misinformation detection pipelines. While offering a promising solution to the challenge of scale, the ethical and societal risks associated with algorithmic misinformation detection are not well-understood. In this paper, we employ and extend upon the notion of informational justice to develop a framework for explicating issues of justice relating to representation, participation, distribution of benefits and burdens, and credibility in the misinformation detection pipeline. Drawing on the framework (1) we show how injustices materialize for stakeholders across three algorithmic stages in the pipeline; (2) we suggest empirical measures for assessing these injustices; and (3) we identify potential sources of these harms. This framework should help researchers, policymakers, and practitioners reason about potential harms or risks associated with these algorithms and provide conceptual guidance for the design of algorithmic fairness audits in this domain.},
+  html={https://dl.acm.org/doi/10.1145/3531146.3533205}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{neumann2023does,
+  title={Does AI-Assisted Fact-Checking Disproportionately Benefit Majority Groups Online?},
+  author={Neumann, Terrence and Wolczynski, Nicholas},
+  booktitle={Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency},
+  pages={480--490},
+  year={2023},
+  preview={does_ai_disp_preview.png},
+  abstract={In recent years, algorithms have been incorporated into fact-checking pipelines. They are used not only to flag previously fact-checked misinformation, but also to provide suggestions about which trending claims should be prioritized for fact-checking - a paradigm called ‘check-worthiness.’ While several studies have examined the accuracy of these algorithms, none have investigated how the benefits from these algorithms (via reduction in exposure to misinformation) are distributed amongst various online communities. In this paper, we investigate how diverse representation across multiple stages of the AI development pipeline affects the distribution of benefits from AI-assisted fact-checking for different online communities. We simulate information propagation through the network using our novel Topic-Aware, Community-Impacted Twitter (TACIT) simulator on a large Twitter followers network, tuned to produce realistic cascades of true and false information across multiple topics. Finally, using simulated data as a test bed, we implement numerous algorithmic fact-checking interventions that explicitly account for notions of diversity. We find that both representative and egalitarian methods for sampling and labeling check-worthiness model training data can lead to network-wide benefit concentrated in majority communities, while incorporating diversity into how fact-checkers use algorithmic recommendations can actively reduce inequalities in benefits between majority and minority communities. These findings contribute to an important conversation around the responsible implementation of AI-assisted fact-checking by social media platforms and fact-checking organizations.},
+  html={https://dl.acm.org/doi/abs/10.1145/3593013.3594013}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{neumann2024diverse,
+  title={Diverse, but Divisive: LLMs Can Exaggerate Gender Differences in Opinion Related to Harms of Misinformation},
+  author={Neumann, Terrence and Lee, Sooyong and De-Arteaga, Maria and Fazelpour, Sina and Lease, Matthew},
+  journal={arXiv preprint arXiv:2401.16558},
+  year={2024},
+  abstract={The pervasive spread of misinformation and disinformation poses a significant threat to society. Professional fact-checkers play a key role in addressing this threat, but the vast scale of the problem forces them to prioritize their limited resources. This prioritization may consider a range of factors, such as varying risks of harm posed to specific groups of people. In this work, we investigate potential implications of using a large language model (LLM) to facilitate such prioritization. Because fact-checking impacts a wide range of diverse segments of society, it is important that diverse views are represented in the claim prioritization process. This paper examines whether a LLM can reflect the views of various groups when assessing the harms of misinformation, focusing on gender as a primary variable. We pose two central questions. (1) To what extent do prompts with explicit gender references reflect gender differences in opinion in the United States on topics of social relevance? and (2) To what extent do gender-neutral prompts align with gendered viewpoints on those topics? To analyze these questions, we present the TopicMisinfo dataset, containing 160 fact-checked claims from diverse topics, supplemented by nearly 1600 human annotations with subjective perceptions and annotator demographics. Analyzing responses to gender-specific and neutral prompts, we find that GPT 3.5-Turbo reflects empirically observed gender differences in opinion but amplifies the extent of these differences. These findings illuminate AI's complex role in moderating online communication, with implications for fact-checkers, algorithm designers, and the use of crowd-workers as annotators. We also release the TopicMisinfo dataset to support continuing research in the community.
+},
+  html={https://arxiv.org/abs/2401.16558}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{neumann2024prism,
+  title={PRISM: A Design Framework for Open-Source Foundation Model Safety},
+  author={Neumann, Terrence and Jones, Bryan},
+  journal={arXiv preprint arXiv:2406.10415},
+  year={2024},
+  preview={prism_preview.png},
+  abstract={The rapid advancement of open-source foundation models has brought transparency and accessibility to this groundbreaking technology. However, this openness has also enabled the development of highly-capable, unsafe models, as exemplified by recent instances such as WormGPT and FraudGPT, which are specifically designed to facilitate criminal activity. As the capabilities of open foundation models continue to grow, potentially outpacing those of closed-source models, the risk of misuse by bad actors poses an increasingly serious threat to society. This paper addresses the critical question of how open foundation model developers should approach model safety in light of these challenges. Our analysis reveals that open-source foundation model companies often provide less restrictive acceptable use policies (AUPs) compared to their closed-source counterparts, likely due to the inherent difficulties in enforcing such policies once the models are released. To tackle this issue, we introduce PRISM, a design framework for open-source foundation model safety that emphasizes Private, Robust, Independent Safety measures, at Minimal marginal cost of compute. The PRISM framework proposes the use of modular functions that moderate prompts and outputs independently of the core language model, offering a more adaptable and resilient approach to safety compared to the brittle reinforcement learning methods currently used for value alignment. By focusing on identifying AUP violations and engaging the developer community in establishing consensus around safety design decisions, PRISM aims to create a safer open-source ecosystem that maximizes the potential of these powerful technologies while minimizing the risks to individuals and society as a whole.
+},
+  html={https://arxiv.org/abs/2406.10415}
 }

@@ -7,6 +7,30 @@ nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# Teaching Assistant Experience
 
-Organize your courses by years, topics, or universities, however you like!
+## 2024-2025
+### Fall
+- **Intro to Problem Solving and Programming**, TA  
+  *Professor: Yan Leng*
+
+## 2023-2024
+### Fall
+- **Intro to Problem Solving and Programming**, TA  
+  *Professor: Yan Leng*
+
+### Spring
+- **Ethics of AI (Undergraduate)**, TA  
+  *Professor: Maria De-Arteaga*  
+- **Ethics of AI (Graduate)**, TA  
+  *Professor: Maria De-Arteaga*
+
+## 2022-2023
+### Fall
+- **Intro to Problem Solving and Programming**, TA  
+  *Professor: Maria De-Arteaga*
+
+## 2021-2022
+### Fall
+- **Intro to Problem Solving and Programming**, TA  
+  *Professor: Maria De-Arteaga*

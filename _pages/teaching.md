@@ -1,14 +1,11 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching Assistant Experience
+description:
 nav: true
 nav_order: 6
 ---
-
-# Teaching Assistant Experience
-
 ## 2024-2025
 ### Fall
 - **Intro to Problem Solving and Programming**, TA  

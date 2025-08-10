@@ -9,4 +9,4 @@ description:
 #   sidebar: left
 ---
 
-<object data="../assets/pdf/resume.pdf" width="100%" height="1000" type="application/pdf" />
+<object data="/assets/pdf/resume.pdf" width="100%" height="1000" type="application/pdf" />

@@ -17,16 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 ## Welcome!  
 
-I’m a fourth-year PhD student at the University of Texas at Austin, where I study **Responsible and Ethical AI** under the guidance of [Maria De-Arteaga](https://mariadearteaga.com/).  
-
-I am both fascinated by and skeptical of advances in AI. On one hand, I’m captivated by AI’s transformative potential to reshape society and drive incredible efficiencies. On the other, I approach its rapid advancements with a critical eye, wary of the hype that often clouds meaningful discourse. This tension fuels my research, as I strive to disentangle fact from fiction and equip organizations to make informed, ethical decisions about AI adoption and development.  
-
-## What I Work On  
-
-In my research, I focus on:  
-- **Frameworks for Responsible AI**: Designing practical theoretical frameworks to guide ethical and responsible development and use of AI technologies.  
-- **Evaluating AI Behavior**: Investigating behavior and performance, especially in areas where ground truth is ambiguous or indeterminate, requiring thoughtful methods and theoretical considerations beyond traditional empirical approaches.  
-- **Mitigating AI Risks**: Identifying and addressing problematic behaviors in AI systems to improve their safety and reliability.  
+I am a fifth-year PhD candidate researching **Responsible AI** advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Yan Leng](https://yleng.github.io/www/). My research develops methods to ensure large language models are safe, transparent, and socially beneficial. My work bridges machine learning, mechanistic interpretability, and computational social science to address pressing challenges at the intersection of AI and society. My dissertation, *Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth*, examines safeguards for AI systems in high-uncertainty, social contexts such as content moderation and agentic decision-making.
 
 ## Collaborators  
 

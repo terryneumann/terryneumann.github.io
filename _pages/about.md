@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 ## Welcome!  
 
-I am a fifth-year PhD candidate researching **Responsible AI** advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Yan Leng](https://yleng.github.io/www/). My research develops methods to ensure large language models are safe, transparent, and socially beneficial. My work bridges machine learning, mechanistic interpretability, and computational social science to address pressing challenges at the intersection of AI and society. My dissertation, *Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth*, examines safeguards for AI systems in high-uncertainty, social contexts such as content moderation and agentic decision-making.
+I am a fifth-year PhD candidate researching **Responsible AI** advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Yan Leng](https://yleng.github.io/www/). My research develops methods to make large language models safer, more transparent, and socially beneficial, drawing on techniques and theories from machine learning, mechanistic interpretability, and computational social science. My proposed dissertation, *Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth*, advances safeguards for high-uncertainty, social applications of large language models such as content moderation and agentic decision-making.
 
 ## Collaborators  
 

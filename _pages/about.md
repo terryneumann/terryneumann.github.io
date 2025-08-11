@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 ## Welcome!  
 
-I am a fifth-year PhD candidate at the University of Texas at Austin researching how organizations can responsibly deploy AI systems in complex social contexts, advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Yan Leng](https://yleng.github.io/www/).
+I am a fifth-year PhD candidate at the University of Texas at Austin studying Information Systems, with an emphasis on **Ethical and Responsible AI**, advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Yan Leng](https://yleng.github.io/www/).
 
 My proposed dissertation, *Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth*, develops conceptual frameworks, statistical tests, and technical mitigations that help organizations anticipate and reduce risks when deploying AI in settings where human judgment, social context, and technical systems intersect.
 

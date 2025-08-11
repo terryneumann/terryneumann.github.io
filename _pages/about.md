@@ -17,7 +17,11 @@ social: true # includes social icons at the bottom of the page
 
 ## Welcome!  
 
-I am a fifth-year PhD candidate researching **Responsible AI** advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Yan Leng](https://yleng.github.io/www/). My research develops methods to make large language models safer, more transparent, and socially beneficial, drawing on techniques and theories from machine learning, mechanistic interpretability, and computational social science. My proposed dissertation, *Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth*, advances safeguards for high-uncertainty, social applications of large language models such as content moderation and agentic decision-making.
+I am a fifth-year PhD candidate at the University of Texas at Austin researching how organizations can responsibly deploy AI systems in complex social contexts, advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Yan Leng](https://yleng.github.io/www/).
+
+Organizations adopting AI face critical risks---such as algorithmic bias, opacity, and uncertain returns on investment---that are particularly challenging to anticipate in socially embedded contexts where "ground truth" is either absent or contested. For instance, in hiring decisions, there is no objective measure of who the "best" candidate truly is, making it difficult to assess whether an AI system is making fair or accurate recommendations. My research develops methods to conceptualize, quantify, and mitigate these risks in such scenarios by drawing on machine learning, mechanistic interpretability, computational social science, ethics, and behavioral science.
+
+My dissertation, *Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth*, develops practical frameworks that help organizations anticipate and reduce risks when deploying AI in settings where human judgment, social context, and technical systems intersect.
 
 ## Collaborators  
 

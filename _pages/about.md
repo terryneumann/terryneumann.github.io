@@ -21,7 +21,7 @@ I am a fifth-year PhD candidate at the University of Texas at Austin researching
 
 Organizations adopting AI face critical risks---such as algorithmic bias, opacity, and uncertain returns on investment---that are particularly challenging to anticipate in socially embedded contexts where "ground truth" is either absent or contested. For instance, whether in hiring, medical diagnosis, or content moderation, there is often no objective measure of the "correct" decision, making it difficult to assess AI performance and fairness. My research develops methods to conceptualize, quantify, and mitigate these risks in such scenarios by drawing on machine learning, mechanistic interpretability, computational social science, ethics, and behavioral science.
 
-My dissertation, *Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth*, develops practical frameworks that help organizations anticipate and reduce risks when deploying AI in settings where human judgment, social context, and technical systems intersect.
+My proposed dissertation, *Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth*, develops conceptual frameworks, statistical tests, and technical mitigations that help organizations anticipate and reduce risks when deploying AI in settings where human judgment, social context, and technical systems intersect.
 
 ## Collaborators  
 

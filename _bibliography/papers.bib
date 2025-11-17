@@ -9,7 +9,8 @@
   year={2022},
   preview={justice_in_misinfo_preview.png},
   abstract={Faced with the scale and surge of misinformation on social media, many platforms and fact-checking organizations have turned to algorithms for automating key parts of misinformation detection pipelines. While offering a promising solution to the challenge of scale, the ethical and societal risks associated with algorithmic misinformation detection are not well-understood. In this paper, we employ and extend upon the notion of informational justice to develop a framework for explicating issues of justice relating to representation, participation, distribution of benefits and burdens, and credibility in the misinformation detection pipeline. Drawing on the framework (1) we show how injustices materialize for stakeholders across three algorithmic stages in the pipeline; (2) we suggest empirical measures for assessing these injustices; and (3) we identify potential sources of these harms. This framework should help researchers, policymakers, and practitioners reason about potential harms or risks associated with these algorithms and provide conceptual guidance for the design of algorithmic fairness audits in this domain.},
-  html={https://dl.acm.org/doi/10.1145/3531146.3533205}
+  html={https://dl.acm.org/doi/10.1145/3531146.3533205},
+  trustworthy_ai_categories={fair}
 }
 
 @inproceedings{neumann2023does,
@@ -19,8 +20,9 @@
   pages={480--490},
   year={2023},
   preview={does_ai_disp_preview.png},
-  abstract={In recent years, algorithms have been incorporated into fact-checking pipelines. They are used not only to flag previously fact-checked misinformation, but also to provide suggestions about which trending claims should be prioritized for fact-checking - a paradigm called ‘check-worthiness.’ While several studies have examined the accuracy of these algorithms, none have investigated how the benefits from these algorithms (via reduction in exposure to misinformation) are distributed amongst various online communities. In this paper, we investigate how diverse representation across multiple stages of the AI development pipeline affects the distribution of benefits from AI-assisted fact-checking for different online communities. We simulate information propagation through the network using our novel Topic-Aware, Community-Impacted Twitter (TACIT) simulator on a large Twitter followers network, tuned to produce realistic cascades of true and false information across multiple topics. Finally, using simulated data as a test bed, we implement numerous algorithmic fact-checking interventions that explicitly account for notions of diversity. We find that both representative and egalitarian methods for sampling and labeling check-worthiness model training data can lead to network-wide benefit concentrated in majority communities, while incorporating diversity into how fact-checkers use algorithmic recommendations can actively reduce inequalities in benefits between majority and minority communities. These findings contribute to an important conversation around the responsible implementation of AI-assisted fact-checking by social media platforms and fact-checking organizations.},
-  html={https://dl.acm.org/doi/abs/10.1145/3593013.3594013}
+  abstract={In recent years, algorithms have been incorporated into fact-checking pipelines. They are used not only to flag previously fact-checked misinformation, but also to provide suggestions about which trending claims should be prioritized for fact-checking - a paradigm called 'check-worthiness.' While several studies have examined the accuracy of these algorithms, none have investigated how the benefits from these algorithms (via reduction in exposure to misinformation) are distributed amongst various online communities. In this paper, we investigate how diverse representation across multiple stages of the AI development pipeline affects the distribution of benefits from AI-assisted fact-checking for different online communities. We simulate information propagation through the network using our novel Topic-Aware, Community-Impacted Twitter (TACIT) simulator on a large Twitter followers network, tuned to produce realistic cascades of true and false information across multiple topics. Finally, using simulated data as a test bed, we implement numerous algorithmic fact-checking interventions that explicitly account for notions of diversity. We find that both representative and egalitarian methods for sampling and labeling check-worthiness model training data can lead to network-wide benefit concentrated in majority communities, while incorporating diversity into how fact-checkers use algorithmic recommendations can actively reduce inequalities in benefits between majority and minority communities. These findings contribute to an important conversation around the responsible implementation of AI-assisted fact-checking by social media platforms and fact-checking organizations.},
+  html={https://dl.acm.org/doi/abs/10.1145/3593013.3594013},
+  trustworthy_ai_categories={fair}
 }
 
 @article{neumann2024diverse,
@@ -30,7 +32,8 @@
   year={2024},
   abstract={The pervasive spread of misinformation and disinformation poses a significant threat to society. Professional fact-checkers play a key role in addressing this threat, but the vast scale of the problem forces them to prioritize their limited resources. This prioritization may consider a range of factors, such as varying risks of harm posed to specific groups of people. In this work, we investigate potential implications of using a large language model (LLM) to facilitate such prioritization. Because fact-checking impacts a wide range of diverse segments of society, it is important that diverse views are represented in the claim prioritization process. This paper examines whether a LLM can reflect the views of various groups when assessing the harms of misinformation, focusing on gender as a primary variable. We pose two central questions. (1) To what extent do prompts with explicit gender references reflect gender differences in opinion in the United States on topics of social relevance? and (2) To what extent do gender-neutral prompts align with gendered viewpoints on those topics? To analyze these questions, we present the TopicMisinfo dataset, containing 160 fact-checked claims from diverse topics, supplemented by nearly 1600 human annotations with subjective perceptions and annotator demographics. Analyzing responses to gender-specific and neutral prompts, we find that GPT 3.5-Turbo reflects empirically observed gender differences in opinion but amplifies the extent of these differences. These findings illuminate AI's complex role in moderating online communication, with implications for fact-checkers, algorithm designers, and the use of crowd-workers as annotators. We also release the TopicMisinfo dataset to support continuing research in the community.
 },
-  html={https://arxiv.org/abs/2401.16558}
+  html={https://arxiv.org/abs/2401.16558},
+  trustworthy_ai_categories={fair, valid}
 }
 
 @article{neumann2024prism,
@@ -41,28 +44,28 @@
   preview={prism_preview.png},
   abstract={The rapid advancement of open-source foundation models has brought transparency and accessibility to this groundbreaking technology. However, this openness has also enabled the development of highly-capable, unsafe models, as exemplified by recent instances such as WormGPT and FraudGPT, which are specifically designed to facilitate criminal activity. As the capabilities of open foundation models continue to grow, potentially outpacing those of closed-source models, the risk of misuse by bad actors poses an increasingly serious threat to society. This paper addresses the critical question of how open foundation model developers should approach model safety in light of these challenges. Our analysis reveals that open-source foundation model companies often provide less restrictive acceptable use policies (AUPs) compared to their closed-source counterparts, likely due to the inherent difficulties in enforcing such policies once the models are released. To tackle this issue, we introduce PRISM, a design framework for open-source foundation model safety that emphasizes Private, Robust, Independent Safety measures, at Minimal marginal cost of compute. The PRISM framework proposes the use of modular functions that moderate prompts and outputs independently of the core language model, offering a more adaptable and resilient approach to safety compared to the brittle reinforcement learning methods currently used for value alignment. By focusing on identifying AUP violations and engaging the developer community in establishing consensus around safety design decisions, PRISM aims to create a safer open-source ecosystem that maximizes the potential of these powerful technologies while minimizing the risks to individuals and society as a whole.
 },
-  html={https://arxiv.org/abs/2406.10415}
+  html={https://arxiv.org/abs/2406.10415},
+  trustworthy_ai_categories={safe,secure,privacy}
 }
 
 @article{neumann2025should,
   title={Should you use LLMs to simulate opinions? Quality checks for early-stage deliberation},
   author={Neumann, Terrence and De-Arteaga, Maria and Fazelpour, Sina},
-  journal={arXiv preprint arXiv:2504.08954},
+  journal={Forthcoming in Proceedings of the Fortieth AAAI Conference on Artificial Intelligence},
   year={2025},
   preview={rq3_plot_strong_nonbinary.png},
   abstract={The emergent capabilities of large language models (LLMs) have prompted interest in using them as surrogates for human subjects in opinion surveys. However, prior evaluations of LLM-based opinion simulation have relied heavily on costly, domain-specific survey data, and mixed empirical results leave their reliability in question. To enable cost-effective, early-stage evaluation, we introduce a quality control assessment designed to test the viability of LLM-simulated opinions on Likert-scale tasks without requiring large-scale human data for validation. This assessment comprises two key tests: logical consistency and alignment with stakeholder expectations, offering a low-cost, domain-adaptable validation tool. We apply our quality control assessment to an opinion simulation task relevant to AI-assisted content moderation and fact-checking workflows---a socially impactful use case---and evaluate seven LLMs using a baseline prompt engineering method (backstory prompting), as well as fine-tuning and in-context learning variants. None of the models or methods pass the full assessment, revealing several failure modes. We conclude with a discussion of the risk management implications and release TopicMisinfo, a benchmark dataset with paired human and LLM annotations simulated by various models and approaches, to support future research.},
-  html={https://arxiv.org/abs/2504.08954}
+  html={https://arxiv.org/abs/2504.08954},
+  trustworthy_ai_categories={valid}
 }
 
-@article{pope2024variability,
-  title={Variability and harshness shape flexible strategy-use in support of the constrained flexibility framework},
-  author={Pope-Caldwell, Sarah and Deffner, Dominik and Maurits, Luke and Neumann, Terrence and Haun, Daniel},
-  journal={Scientific Reports},
-  volume={14},
-  number={1},
-  pages={7236},
-  year={2024},
-  abstract={Human cognition is incredibly flexible, allowing us to thrive within diverse environments. However, humans also tend to stick to familiar strategies, even when there are better solutions available. How do we exhibit flexibility in some contexts, yet inflexibility in others? The constrained flexibility framework (CFF) proposes that cognitive flexibility is shaped by variability, predictability, and harshness within decision-making environments. The CFF asserts that high elective switching (switching away from a working strategy) is maladaptive in stable or predictably variable environments, but adaptive in unpredictable environments, so long as harshness is low. Here we provide evidence for the CFF using a decision-making task completed across two studies with a total of 299 English-speaking adults. In line with the CFF, we found that elective switching was suppressed by harshness, using both within- and between-subjects harshness manipulations. Our results highlight the need to study how cognitive flexibility adapts to diverse contexts.},
-  html={https://www.nature.com/articles/s41598-024-57800-w},
-  publisher={Nature Publishing Group UK London}
+@article{neumann2025investigating,
+title={From Statistical Patterns Emerge Human-Like Behaviors: How LLMs Learn Social Preferences},
+author={Neumann, Terrence and Leng, Yan},
+journal={Working Paper},
+year={2025},
+abstract={Large language models (LLMs) are increasingly deployed in settings where their decisions carry ethical and interpersonal consequences. Despite being trained solely through next-token prediction, LLMs often display emergent social behaviors and preferences, such as altruism, fairness, and self-interest. Yet the mechanisms underlying these behaviors remain poorly understood, raising critical questions for both theory and deployment: Why do such behaviors emerge, and can they be controlled? This paper provides an initial answer by linking external social behavior to internal model computation. We introduce a two-step framework using Sparse Autoencoders (SAEs) to identify and manipulate latent features associated with human-like preferences. Using the dictator game---a canonical testbed from behavioral economics---we show that certain latent directions in an open-source LLM (Gemma 2 9b-IT) align with altruistic and self-interested concepts. Activating a single ``self-interest'' feature, for instance, nearly doubles the rate of self-serving decisions (from 35\% to 72.5\%). These results demonstrate that social preferences in LLMs can be traced and steered via an interpretable latent structure, providing a foundation for more transparent, controllable, and norm-sensitive AI behavior.
+},
+trustworthy_ai_categories={explainable}
+
 }

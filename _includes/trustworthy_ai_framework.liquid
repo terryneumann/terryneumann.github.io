@@ -1,0 +1,248 @@
+<!-- Trustworthy AI Framework Interactive Graphic -->
+<div class="trustworthy-ai-framework">
+  <div class="framework-container">
+    <svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" class="framework-svg">
+      <!-- Top Row Boxes -->
+
+      <!-- Safe -->
+      <g class="framework-box" data-category="safe" role="button" tabindex="0">
+        <rect x="20" y="20" width="140" height="100" rx="5" class="box-rect"/>
+        <text x="90" y="75" text-anchor="middle" class="box-text">Safe</text>
+      </g>
+
+      <!-- Secure & Resilient -->
+      <g class="framework-box" data-category="secure" role="button" tabindex="0">
+        <rect x="180" y="20" width="180" height="100" rx="5" class="box-rect"/>
+        <text x="270" y="60" text-anchor="middle" class="box-text">Secure &amp;</text>
+        <text x="270" y="85" text-anchor="middle" class="box-text">Resilient</text>
+      </g>
+
+      <!-- Explainable & Interpretable -->
+      <g class="framework-box" data-category="explainable" role="button" tabindex="0">
+        <rect x="380" y="20" width="200" height="100" rx="5" class="box-rect"/>
+        <text x="480" y="60" text-anchor="middle" class="box-text">Explainable &amp;</text>
+        <text x="480" y="85" text-anchor="middle" class="box-text">Interpretable</text>
+      </g>
+
+      <!-- Privacy-Enhanced -->
+      <g class="framework-box" data-category="privacy" role="button" tabindex="0">
+        <rect x="600" y="20" width="180" height="100" rx="5" class="box-rect"/>
+        <text x="690" y="60" text-anchor="middle" class="box-text">Privacy-</text>
+        <text x="690" y="85" text-anchor="middle" class="box-text">Enhanced</text>
+      </g>
+
+      <!-- Fair - With Harmful Bias Managed -->
+      <g class="framework-box" data-category="fair" role="button" tabindex="0">
+        <rect x="800" y="20" width="200" height="100" rx="5" class="box-rect"/>
+        <text x="900" y="55" text-anchor="middle" class="box-text">Fair - With Harmful</text>
+        <text x="900" y="80" text-anchor="middle" class="box-text">Bias Managed</text>
+      </g>
+
+      <!-- Accountable & Transparent -->
+      <g class="framework-box" data-category="accountable" role="button" tabindex="0">
+        <rect x="1020" y="20" width="160" height="100" rx="5" class="box-rect"/>
+        <text x="1100" y="55" text-anchor="middle" class="box-text">Accountable &amp;</text>
+        <text x="1100" y="80" text-anchor="middle" class="box-text">Transparent</text>
+      </g>
+
+      <!-- Bottom Bar: Valid & Reliable -->
+      <g class="framework-box framework-box-bottom" data-category="valid" role="button" tabindex="0">
+        <rect x="20" y="180" width="1160" height="100" rx="5" class="box-rect"/>
+        <text x="600" y="237" text-anchor="middle" class="box-text box-text-large">Valid &amp; Reliable</text>
+      </g>
+
+      <!-- Show All Button -->
+      <g class="framework-box framework-box-all active" data-category="all" role="button" tabindex="0">
+        <rect x="500" y="145" width="200" height="25" rx="5" class="box-rect box-all-rect"/>
+        <text x="600" y="162" text-anchor="middle" class="box-text box-all-text">Show All</text>
+      </g>
+    </svg>
+  </div>
+</div>
+
+<style>
+.trustworthy-ai-framework {
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.framework-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.framework-svg {
+  width: 100%;
+  height: auto;
+}
+
+.framework-box {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.box-rect {
+  fill: var(--global-text-color-light, #6c7a89);
+  stroke: var(--global-text-color, #111);
+  stroke-width: 2;
+  transition: all 0.3s ease;
+}
+
+.box-text {
+  fill: var(--global-bg-color, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  pointer-events: none;
+  font-family: var(--global-font-family);
+}
+
+.box-text-large {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.box-all-rect {
+  fill: var(--global-theme-color, #4682b4);
+  stroke-width: 1.5;
+}
+
+.box-all-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.framework-box:hover .box-rect {
+  fill: var(--global-theme-color, #4682b4);
+  transform: scale(1.02);
+}
+
+.framework-box.active .box-rect {
+  fill: var(--global-theme-color, #4682b4);
+  stroke-width: 3;
+  filter: brightness(1.1);
+}
+
+.framework-box:focus {
+  outline: 2px solid var(--global-theme-color, #4682b4);
+  outline-offset: 2px;
+}
+
+/* Dark mode support */
+html[data-theme="dark"] .box-rect {
+  fill: var(--global-theme-color, #4682b4); /* Dark blue by default */
+  stroke: var(--global-theme-color, #4682b4);
+}
+
+html[data-theme="dark"] .box-text {
+  fill: var(--global-text-color, #ddd); /* Off-white text */
+}
+
+html[data-theme="dark"] .box-all-rect {
+  fill: var(--global-theme-color, #4682b4); /* Dark blue for "Show All" */
+}
+
+html[data-theme="dark"] .framework-box:hover .box-rect {
+  fill: #5a9bd4; /* Slightly lighter blue on hover */
+  filter: brightness(1.15);
+}
+
+html[data-theme="dark"] .framework-box.active .box-rect {
+  fill: #8b5fbf; /* Purple when clicked */
+  stroke: #8b5fbf;
+  filter: brightness(1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .box-text {
+    font-size: 12px;
+  }
+
+  .box-text-large {
+    font-size: 16px;
+  }
+
+  .box-all-text {
+    font-size: 11px;
+  }
+}
+</style>
+
+<script>
+(function() {
+  // Wait for everything to be fully loaded
+  window.addEventListener('load', function() {
+    setTimeout(initFramework, 100); // Small delay to ensure bibliography is rendered
+  });
+
+  function initFramework() {
+    const frameworkBoxes = document.querySelectorAll('.framework-box');
+    const publications = document.querySelectorAll('.publications ol.bibliography > li');
+
+    console.log('Framework boxes found:', frameworkBoxes.length);
+    console.log('Publications found:', publications.length);
+
+    // Add click handlers to framework boxes
+    frameworkBoxes.forEach(box => {
+      box.addEventListener('click', function() {
+        handleCategoryClick(this);
+      });
+
+      // Keyboard accessibility
+      box.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          handleCategoryClick(this);
+        }
+      });
+    });
+
+    function handleCategoryClick(box) {
+      const category = box.getAttribute('data-category');
+      console.log('Clicked category:', category);
+
+      // Remove active class from all boxes
+      frameworkBoxes.forEach(b => b.classList.remove('active'));
+
+      // Add active class to clicked box
+      box.classList.add('active');
+
+      // Re-query publications to get fresh list
+      const currentPublications = document.querySelectorAll('.publications ol.bibliography > li');
+      console.log('Current publications:', currentPublications.length);
+
+      // Filter publications
+      if (category === 'all') {
+        // Show all publications
+        currentPublications.forEach(pub => {
+          pub.style.display = '';
+        });
+      } else {
+        // Filter by category
+        let matchCount = 0;
+        currentPublications.forEach(pub => {
+          // Get the data attribute from the .row div inside the li
+          const rowDiv = pub.querySelector('.row');
+          const categories = rowDiv ? rowDiv.getAttribute('data-trustworthy-ai-categories') : null;
+          console.log('Paper categories:', categories);
+          if (categories && categories.split(',').includes(category)) {
+            pub.style.display = '';
+            matchCount++;
+          } else {
+            pub.style.display = 'none';
+          }
+        });
+        console.log('Matched papers:', matchCount);
+      }
+
+      // Smooth scroll to publications
+      const publicationsSection = document.querySelector('.publications');
+      if (publicationsSection) {
+        setTimeout(() => {
+          publicationsSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 100);
+      }
+    }
+  }
+})();
+</script>

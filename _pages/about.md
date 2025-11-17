@@ -10,7 +10,10 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
 
-news: true # includes a list of news items
+announcements:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -19,6 +22,18 @@ social: true # includes social icons at the bottom of the page
 
 I am a fifth-year PhD candidate at the University of Texas at Austin studying Information Systems, advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Yan Leng](https://yleng.github.io/www/). Throughout my PhD, I've been fortunate to collaborate with and learn from great researchers like [Sina Fazelpour](https://cssh.northeastern.edu/faculty/sina-fazelpour/), [Matt Lease](https://mattlease.com/), and [Maytal Saar-Tsechansky](https://www.maytals.com/).  
 
-I'm interested in research questions at the intersection of **AI & Society**, and I use approaches from **statistics** and **machine learning** to answer these questions. My proposed dissertation, *Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth*, develops conceptual frameworks, statistical tests, and technical mitigations that help organizations anticipate and reduce risks---such as bias and uncertain ROI---when deploying AI in settings where the 'right' answer depends on human judgment and social context.
+My research focuses on **trustworthy AI**. While there are many definitions of trustworthy AI, I have found the [NIST AI Risk Management Framework's Characteristics of Trustworthy AI](https://www.nist.gov/itl/ai-risk-management-framework) as a valuable framework for scoping and defining my contributions. My proposed dissertation, **Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth**, develops conceptual frameworks, statistical tests, and technical mitigations that help organizations anticipate and reduce risks when deploying AI in settings where the 'right' answer depends on human judgment and social context. Click on any of the boxes below to examine my work related to a specific principle of trustworthy AI.
+
+{% include trustworthy_ai_framework.liquid %}
+
+<p style="text-align: center; font-style: italic; margin-top: 1rem; color: #FFFDD0;">
+Click on a characteristic to explore my work in that area.
+</p>
+
+<div class="publications">
+{% bibliography %}
+</div>
+
+## Background
 
 My path to academia included working as a Data Scientist at the [University of Chicago Crime Lab](https://crimelab.uchicago.edu/), where I was fortunate to collaborate with exceptional researchers [Jens Ludwig](https://harris.uchicago.edu/directory/jens-ludwig) and [Max Kapustin](https://www.maxkapustin.com/). Prior to that, I received a MS in Analytics from Northwestern University and a BA in Economics and Mathematics from Indiana University, Bloomington. Outside of research, I love to run (I ran [my first 50k in 2024](https://gobeyondracing.com/races/stumptown-trail-runs/)), cook, go to concerts, and play the guitar.

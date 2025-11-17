@@ -1,3 +1,17 @@
+<style>
+.news {
+  color: var(--global-text-color);
+}
+html[data-theme="dark"] .news {
+  color: #FFFDD0 !important;
+}
+html[data-theme="dark"] .news table,
+html[data-theme="dark"] .news table th,
+html[data-theme="dark"] .news table td {
+  color: #FFFDD0 !important;
+}
+</style>
+
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}

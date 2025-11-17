@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-research",
-          title: "research",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
@@ -360,16 +353,14 @@ ninja.data = [{
           window.location.href = "/sample-posts/2015/03/15/formatting-and-links.html";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-i-have-been-invited-to-present-at-informs-2025-in-the-generative-ai-session-within-the-iss-cluster-see-you-in-atlanta",
+          title: 'I have been invited to present at INFORMS 2025 in the Generative AI...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-my-paper-should-you-use-llms-to-simulate-opinions-received-the-best-paper-runner-up-award-for-the-iss-cluster-at-informs-2025-thank-you-to-the-judges-for-taking-the-time-to-review-my-paper",
+          title: 'My paper Should You Use LLMs To Simulate Opinions? received the Best Paper,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-my-paper-should-you-use-llms-to-simulate-opinions-has-been-accepted-to-the-aaai-conference-on-artificial-intelligence-i-will-update-you-when-i-hear-about-whether-this-will-be-a-poster-or-presentation-in-the-ai-for-social-impact-track-sparkles-smile-see-you-in-singapore-this-january",
+          title: 'My paper Should You Use LLMs to Simulate Opinions? has been accepted to...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

@@ -24,11 +24,10 @@ I am a fifth-year PhD candidate at the University of Texas at Austin studying In
 
 My research focuses on **trustworthy AI**. While there are many definitions of trustworthy AI, I have found the [NIST AI Risk Management Framework's Characteristics of Trustworthy AI](https://www.nist.gov/itl/ai-risk-management-framework) as a valuable framework for scoping and defining my contributions. My proposed dissertation, **Sociotechnical Controls for Mitigating AI Risk in the Absence of Ground Truth**, develops conceptual frameworks, statistical tests, and technical mitigations that help organizations anticipate and reduce risks when deploying AI in settings where the 'right' answer depends on human judgment and social context. Click on any of the boxes below to examine my work related to a specific principle of trustworthy AI.
 
-{% include trustworthy_ai_framework.liquid %}
 
-<p style="text-align: center; font-style: italic; margin-top: 1rem; color: #FFFDD0;">
-Click on a characteristic to explore my work in that area.
-</p>
+{% include trustworthy_ai_framework.liquid %}
+Above: NIST's **Characteristics of Trustworthy AI**. Click on a characteristic to explore my work in that area.
+
 
 <div class="publications">
 {% bibliography %}

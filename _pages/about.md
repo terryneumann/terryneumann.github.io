@@ -22,11 +22,11 @@ social: true # includes social icons at the bottom of the page
 
 I am a fifth-year PhD candidate at the University of Texas at Austin studying Information Systems, advised by [Maria De-Arteaga](https://mariadearteaga.com/) and [Yan Leng](https://yleng.github.io/www/). Throughout my PhD, I've been fortunate to collaborate with and learn from great researchers like [Sina Fazelpour](https://cssh.northeastern.edu/faculty/sina-fazelpour/), [Matt Lease](https://mattlease.com/), and [Maytal Saar-Tsechansky](https://www.maytals.com/).  
 
-My research focuses on **trustworthy AI**. I have found the [NIST AI Risk Management Framework's Characteristics of Trustworthy AI](https://www.nist.gov/itl/ai-risk-management-framework) as a valuable framework for scoping and defining my contributions. I am particularly interested in the following research streams: (1) mechanistic interpretability of LLM agents, (2) responsible use of LLMs as silicon subjects for academic and social applications, and (3) algorithmic fairness on social media. I pursue research that bridges machine learning and computational social science to address pressing challenges at the intersection of AI and society.
+My research focuses on **trustworthy AI**. I am particularly interested in the following research streams: (1) mechanistic interpretability of LLM agents, (2) responsible use of LLMs as silicon subjects for academic and social applications, and (3) algorithmic fairness on social media. I pursue research that bridges machine learning and computational social science to address pressing challenges at the intersection of AI and society.
 
 
 {% include trustworthy_ai_framework.liquid %}
-Above: NIST's **Characteristics of Trustworthy AI**. Click on a characteristic to explore my work in that area.
+Above: I have found the [NIST AI Risk Management Framework's Characteristics of Trustworthy AI](https://www.nist.gov/itl/ai-risk-management-framework) as a valuable framework for scoping and defining my contributions. Click on a characteristic to explore my work in that area.
 
 
 <div class="publications">
